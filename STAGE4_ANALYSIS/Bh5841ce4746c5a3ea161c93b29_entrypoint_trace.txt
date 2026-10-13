@@ -1,0 +1,22 @@
+File: Bh5841ce4746c5a3ea161c93b29.exe
+SHA256: a2541060cafaae84072cb89d0ef94b07b5129bff58358adfdbded54254487d0a
+
+Entry RVA 0xB82D5E / VA 0x140B82D5E
+  e8 bb 27 ff ff    call 0x140B7551E
+
+RVA 0xB7551E / VA 0x140B7551E
+  e8 55 45 35 00    call 0x140EC9A78
+
+RVA 0xEC9A78 / VA 0x140EC9A78
+  e8 9a 79 9e ff    call 0x1408B1417
+
+RVA 0x8B1417 / VA 0x1408B1417
+  48 c7 44 24 10 21 e0 05 48   mov qword ptr [rsp+0x10], 0x4805E021
+  48 8d 64 24 10               lea rsp, [rsp+0x10]
+  e8 91 d2 81 00               call 0x1410CE6BB
+  0f 05                        syscall
+  e8 31 e1 2b 00               call 0x140B6F562
+  48 c7 44 24 00 58 70 3a 0f   mov qword ptr [rsp], 0x0F3A7058
+  e8 a5 37 68 00               call 0x140F34BE4
+
+Caveat: the call targets contain intentionally opaque/garbage-looking bytes. The syscall opcode is confirmed in an entry-reachable sequence, but its service number and effect are unknown from this static trace.

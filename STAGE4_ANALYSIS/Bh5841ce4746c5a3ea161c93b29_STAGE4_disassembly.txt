@@ -1,0 +1,89 @@
+Stage 4 targeted disassembly excerpt
+Sample SHA-256: a2541060cafaae84072cb89d0ef94b07b5129bff58358adfdbded54254487d0a
+Command: llvm-objdump -d --x86-asm-syntax=intel --start-address=0x1408b1400 --stop-address=0x1408b1470
+
+
+/mnt/data/Bh5841ce4746c5a3ea161c93b29.exe:	file format coff-x86-64
+
+Disassembly of section G8WQkCuI:
+
+0000000140831000 <G8WQkCuI>:
+1408b1400: cd 55                       	int	0x55
+1408b1402: 41 54                       	push	r12
+1408b1404: 48 c7 44 24 10 57 9f dd a9  	mov	qword ptr [rsp + 0x10], -0x562260a9
+1408b140d: 48 8d 64 24 10              	lea	rsp, [rsp + 0x10]
+1408b1412: e8 a4 13 82 00              	call	0x1410d27bb <G8WQkCuI+0x8a17bb>
+1408b1417: 48 c7 44 24 10 21 e0 05 48  	mov	qword ptr [rsp + 0x10], 0x4805e021
+1408b1420: 48 8d 64 24 10              	lea	rsp, [rsp + 0x10]
+1408b1425: e8 91 d2 81 00              	call	0x1410ce6bb <G8WQkCuI+0x89d6bb>
+1408b142a: 0f 05                       	syscall
+1408b142c: e8 31 e1 2b 00              	call	0x140b6f562 <G8WQkCuI+0x33e562>
+1408b1431: 48 c7 44 24 00 58 70 3a 0f  	mov	qword ptr [rsp], 0xf3a7058
+1408b143a: e8 a5 37 68 00              	call	0x140f34be4 <G8WQkCuI+0x703be4>
+1408b143f: 4c 46                       	<unknown>
+1408b1441: 55                          	push	rbp
+1408b1442: 33 28                       	xor	ebp, dword ptr [rax]
+1408b1444: a9 cf 5f 08 e2              	test	eax, 0xe2085fcf
+1408b1449: 48 b1 cf                    	mov	cl, -0x31
+1408b144c: 5f                          	pop	rdi
+1408b144d: 08 2a                       	or	byte ptr [rdx], ch
+1408b144f: 36 09 cf                    	or	edi, ecx
+1408b1452: 5f                          	pop	rdi
+1408b1453: 08 72 e2                    	or	byte ptr [rdx - 0x1e], dh
+1408b1456: 11 cf                       	adc	edi, ecx
+1408b1458: 5f                          	pop	rdi
+1408b1459: 08 8d 20 f1 cf 5f           	or	byte ptr [rbp + 0x5fcff120], cl
+1408b145f: 08 da                       	or	dl, bl
+1408b1461: 06                          	<unknown>
+1408b1462: 41 cf                       	iretd
+1408b1464: 5f                          	pop	rdi
+1408b1465: 08 8d 7e e1 cf 5f           	or	byte ptr [rbp + 0x5fcfe17e], cl
+1408b146b: 08 1d d2 59 cc b3           	or	byte ptr [rip - 0x4c33a62e], bl # 0xf4576e43
+
+Command: llvm-objdump -d --x86-asm-syntax=intel --start-address=0x140b75510 --stop-address=0x140b75540
+
+/mnt/data/Bh5841ce4746c5a3ea161c93b29.exe:	file format coff-x86-64
+
+Disassembly of section G8WQkCuI:
+
+0000000140831000 <G8WQkCuI>:
+140b75510: e7 fe                       	out	0xfe, eax
+140b75512: a0 68 38 22 13 f6 78 ec dc  	movabs	al, byte ptr [-0x23138709ecddc798]
+140b7551b: 9a                          	<unknown>
+140b7551c: 82                          	<unknown>
+140b7551d: 0a e8                       	or	ch, al
+140b7551f: 55                          	push	rbp
+140b75520: 45 35 00 2c bc c1           	xor	eax, 0xc1bc2c00
+140b75526: 05 14 68 ab ad              	add	eax, 0xadab6814
+140b7552b: 40 64                       	fs
+140b7552d: 44 00 ab ad 40 ed 7c        	add	byte ptr [rbx + 0x7ced40ad], r13b
+140b75534: c8 ab ad 40                 	enter	-0x5255, 0x40
+140b75538: 84 94 d8 ab ad 40 24        	test	byte ptr [rax + 8*rbx + 0x2440adab], dl
+140b7553f: 4c a8 ab                    	test	al, -0x55
+
+Command: llvm-objdump -d --x86-asm-syntax=intel --start-address=0x140ec9a70 --stop-address=0x140ec9aa0
+
+/mnt/data/Bh5841ce4746c5a3ea161c93b29.exe:	file format coff-x86-64
+
+Disassembly of section G8WQkCuI:
+
+0000000140831000 <G8WQkCuI>:
+140ec9a70: 8a 84 db d7 89 d0 a0        	mov	al, byte ptr [rbx + 8*rbx - 0x5f2f7629]
+140ec9a77: 98                          	cwde
+140ec9a78: e8 9a 79 9e ff              	call	0x1408b1417 <G8WQkCuI+0x80417>
+140ec9a7d: e7 b5                       	out	0xb5, eax
+140ec9a7f: 33 2b                       	xor	ebp, dword ptr [rbx]
+140ec9a81: 82                          	<unknown>
+140ec9a82: c7 33                       	<unknown>
+140ec9a84: 1e                          	<unknown>
+140ec9a85: 26 33 2b                    	xor	ebp, dword ptr es:[rbx]
+140ec9a88: a7                          	cmpsd	dword ptr [rsi], dword ptr es:[rdi]
+140ec9a89: 33 1e                       	xor	ebx, dword ptr [rsi]
+140ec9a8b: 26 79 35                    	jns	0x140ec9ac3 <G8WQkCuI+0x698ac3>
+140ec9a8e: b7 33                       	mov	bh, 0x33
+140ec9a90: 1e                          	<unknown>
+140ec9a91: 26 49 85 2f                 	test	qword ptr es:[r15], rbp
+140ec9a95: 33 1e                       	xor	ebx, dword ptr [rsi]
+140ec9a97: 26 df 73 77                 	fbstp	tbyte ptr es:[rbx + 0x77]
+140ec9a9b: 33 1e                       	xor	ebx, dword ptr [rsi]
+140ec9a9d: 26 bd 73 0f 33 1e           	mov	ebp, 0x1e330f73

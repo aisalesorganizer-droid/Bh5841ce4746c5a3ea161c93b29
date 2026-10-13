@@ -1,0 +1,10 @@
+SHA-256: a2541060cafaae84072cb89d0ef94b07b5129bff58358adfdbded54254487d0a
+Entry RVA: 0xb82d5e
+File offset: 0x35375e
+Bytes: e8 bb 27 ff ff 46 68 67 72 7f 55 3a b4 c2 3a c1 50 6c f7 01 82 18 d3 79 88 c6 1a b0 eb cb e7 f6 22 b0 eb cb bb ea 2a b0 eb cb e6 90 42 b0 eb cb 9a d6 12 b0 eb cb d7 36 ca b0 eb cb b1 c2 2c 7a
+
+These are direct CALL byte candidates only; do not treat them as confirmed control flow.
+{"rva": "0xb82d5e", "va": "0x140b82d5e", "file_offset": "0x35375e", "bytes": "e8 bb 27 ff ff 46 68 67 72 7f 55 3a b4 c2 3a c1", "section": "G8WQkCuI", "direct_call_rel32_candidate": "0xb7551e"}
+{"rva": "0xb7551e", "va": "0x140b7551e", "file_offset": "0x345f1e", "bytes": "e8 55 45 35 00 2c bc c1 05 14 68 ab ad 40 64 44", "section": "G8WQkCuI", "direct_call_rel32_candidate": "0xec9a78"}
+{"rva": "0xec9a78", "va": "0x140ec9a78", "file_offset": "0x69a478", "bytes": "e8 9a 79 9e ff e7 b5 33 2b 82 c7 33 1e 26 33 2b", "section": "G8WQkCuI", "direct_call_rel32_candidate": "0x8b1417"}
+{"rva": "0x8b1417", "va": "0x1408b1417", "file_offset": "0x81e17", "bytes": "48 c7 44 24 10 21 e0 05 48 48 8d 64 24 10 e8 91", "section": "G8WQkCuI"}

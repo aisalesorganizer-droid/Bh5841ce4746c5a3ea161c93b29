@@ -1,0 +1,1273 @@
+{
+  "analysis_mode": "read-only static; sample was not executed",
+  "file": "Bh5841ce4746c5a3ea161c93b29.exe",
+  "size": 10356520,
+  "sha256": "a2541060cafaae84072cb89d0ef94b07b5129bff58358adfdbded54254487d0a",
+  "pe": {
+    "pe_header_offset": "0x78",
+    "machine": "0x8664",
+    "sections": 10,
+    "timestamp_unix": 1791618793,
+    "timestamp_utc": "2026-10-10T07:53:13+00:00",
+    "characteristics": "0x23",
+    "optional_header_magic": "0x20b",
+    "image_base": "0x140000000",
+    "entry_rva": "0xb82d5e",
+    "entry_va": "0x140b82d5e",
+    "size_of_image": "0x1211000",
+    "dll_characteristics": "0x120",
+    "dll_characteristics_notes": {
+      "dynamic_base": false,
+      "high_entropy_va": true,
+      "nx_compat": true
+    },
+    "data_directories": {
+      "0": {
+        "rva_or_file_offset": 0,
+        "size": 0
+      },
+      "1": {
+        "rva_or_file_offset": 9117648,
+        "size": 620
+      },
+      "2": {
+        "rva_or_file_offset": 18509824,
+        "size": 432780
+      },
+      "3": {
+        "rva_or_file_offset": 18404912,
+        "size": 92832
+      },
+      "4": {
+        "rva_or_file_offset": 0,
+        "size": 0
+      },
+      "5": {
+        "rva_or_file_offset": 0,
+        "size": 0
+      },
+      "6": {
+        "rva_or_file_offset": 0,
+        "size": 0
+      },
+      "7": {
+        "rva_or_file_offset": 0,
+        "size": 0
+      },
+      "8": {
+        "rva_or_file_offset": 0,
+        "size": 0
+      },
+      "9": {
+        "rva_or_file_offset": 11814032,
+        "size": 40
+      },
+      "10": {
+        "rva_or_file_offset": 18404592,
+        "size": 320
+      },
+      "11": {
+        "rva_or_file_offset": 0,
+        "size": 0
+      },
+      "12": {
+        "rva_or_file_offset": 8581120,
+        "size": 520
+      },
+      "13": {
+        "rva_or_file_offset": 0,
+        "size": 0
+      },
+      "14": {
+        "rva_or_file_offset": 0,
+        "size": 0
+      },
+      "15": {
+        "rva_or_file_offset": 0,
+        "size": 0
+      }
+    }
+  },
+  "sections": [
+    {
+      "name": "q&@j^('J",
+      "rva": 4096,
+      "virtual_size": 3170038,
+      "raw_offset": 0,
+      "raw_size": 0,
+      "characteristics": 1610612768,
+      "raw_entropy": 0.0,
+      "raw_bytes_present": false,
+      "raw_end": 0,
+      "virtual_end_rva": 3174134
+    },
+    {
+      "name": "'aCwt,#&",
+      "rva": 3174400,
+      "virtual_size": 617368,
+      "raw_offset": 0,
+      "raw_size": 0,
+      "characteristics": 1073741888,
+      "raw_entropy": 0.0,
+      "raw_bytes_present": false,
+      "raw_end": 0,
+      "virtual_end_rva": 3791768
+    },
+    {
+      "name": "PLwzS&d3",
+      "rva": 3792896,
+      "virtual_size": 417284,
+      "raw_offset": 0,
+      "raw_size": 0,
+      "characteristics": 3221225536,
+      "raw_entropy": 0.0,
+      "raw_bytes_present": false,
+      "raw_end": 0,
+      "virtual_end_rva": 4210180
+    },
+    {
+      "name": "Q/RcDJN'",
+      "rva": 4210688,
+      "virtual_size": 92436,
+      "raw_offset": 0,
+      "raw_size": 0,
+      "characteristics": 1073741888,
+      "raw_entropy": 0.0,
+      "raw_bytes_present": false,
+      "raw_end": 0,
+      "virtual_end_rva": 4303124
+    },
+    {
+      "name": "I*2ta),o",
+      "rva": 4304896,
+      "virtual_size": 9,
+      "raw_offset": 0,
+      "raw_size": 0,
+      "characteristics": 3221225536,
+      "raw_entropy": 0.0,
+      "raw_bytes_present": false,
+      "raw_end": 0,
+      "virtual_end_rva": 4304905
+    },
+    {
+      "name": "Z&l3-AUu",
+      "rva": 4308992,
+      "virtual_size": 4269516,
+      "raw_offset": 0,
+      "raw_size": 0,
+      "characteristics": 1610612768,
+      "raw_entropy": 0.0,
+      "raw_bytes_present": false,
+      "raw_end": 0,
+      "virtual_end_rva": 8578508
+    },
+    {
+      "name": "737@(t;z",
+      "rva": 8581120,
+      "virtual_size": 5392,
+      "raw_offset": 1024,
+      "raw_size": 5632,
+      "characteristics": 3221225536,
+      "raw_entropy": 0.241732,
+      "raw_bytes_present": true,
+      "raw_end": 6656,
+      "virtual_end_rva": 8586512
+    },
+    {
+      "name": "G8WQkCuI",
+      "rva": 8589312,
+      "virtual_size": 9908432,
+      "raw_offset": 6656,
+      "raw_size": 9908736,
+      "characteristics": 1744830560,
+      "raw_entropy": 7.857998,
+      "raw_bytes_present": true,
+      "raw_end": 9915392,
+      "virtual_end_rva": 18497744
+    },
+    {
+      "name": "7m`f<+$z",
+      "rva": 18501632,
+      "virtual_size": 4902,
+      "raw_offset": 9915392,
+      "raw_size": 5120,
+      "characteristics": 1073741888,
+      "raw_entropy": 3.467799,
+      "raw_bytes_present": true,
+      "raw_end": 9920512,
+      "virtual_end_rva": 18506534
+    },
+    {
+      "name": ".rsrc",
+      "rva": 18509824,
+      "virtual_size": 434176,
+      "raw_offset": 9920512,
+      "raw_size": 433152,
+      "characteristics": 1073741888,
+      "raw_entropy": 6.010381,
+      "raw_bytes_present": true,
+      "raw_end": 10353664,
+      "virtual_end_rva": 18944000
+    }
+  ],
+  "entry_direct_call_chain": [
+    {
+      "rva": "0xb82d5e",
+      "va": "0x140b82d5e",
+      "file_offset": "0x35375e",
+      "first_bytes": "e8 bb 27 ff ff 46 68 67 72 7f 55 3a b4 c2 3a c1",
+      "direct_call_target_rva": "0xb7551e",
+      "direct_call_target_va": "0x140b7551e"
+    },
+    {
+      "rva": "0xb7551e",
+      "va": "0x140b7551e",
+      "file_offset": "0x345f1e",
+      "first_bytes": "e8 55 45 35 00 2c bc c1 05 14 68 ab ad 40 64 44",
+      "direct_call_target_rva": "0xec9a78",
+      "direct_call_target_va": "0x140ec9a78"
+    },
+    {
+      "rva": "0xec9a78",
+      "va": "0x140ec9a78",
+      "file_offset": "0x69a478",
+      "first_bytes": "e8 9a 79 9e ff e7 b5 33 2b 82 c7 33 1e 26 33 2b",
+      "direct_call_target_rva": "0x8b1417",
+      "direct_call_target_va": "0x1408b1417"
+    },
+    {
+      "rva": "0x8b1417",
+      "va": "0x1408b1417",
+      "file_offset": "0x81e17",
+      "first_bytes": "48 c7 44 24 10 21 e0 05 48 48 8d 64 24 10 e8 91",
+      "note": "first opcode is not a direct CALL rel32; chain ends"
+    }
+  ],
+  "opcode_byte_patterns": {
+    "syscall_bytes_0f05": {
+      "count_entire_file": 298,
+      "count_by_section": {
+        "G8WQkCuI": 298
+      },
+      "first_20_file_offsets": [
+        "0x48c4",
+        "0x5fdd",
+        "0x6451",
+        "0x6508",
+        "0x746f",
+        "0x9052",
+        "0x958b",
+        "0x9592",
+        "0xab6d",
+        "0xab74",
+        "0xb0b9",
+        "0x1a048",
+        "0x23641",
+        "0x3f58f",
+        "0x57bee",
+        "0x6681d",
+        "0x681f2",
+        "0x69c92",
+        "0x6b87e",
+        "0x6ce9e"
+      ]
+    },
+    "sysenter_bytes_0f34": {
+      "count_entire_file": 138,
+      "count_by_section": {
+        "G8WQkCuI": 115,
+        ".rsrc": 23
+      },
+      "first_20_file_offsets": [
+        "0x4e0f",
+        "0x2c30d",
+        "0x41d7b",
+        "0x50897",
+        "0x5fe00",
+        "0x6f4e3",
+        "0x7e819",
+        "0x8ed23",
+        "0x92517",
+        "0xa0a4b",
+        "0xa1cdf",
+        "0xb8407",
+        "0xb92ec",
+        "0xbfc49",
+        "0xc3e11",
+        "0xc4dc0",
+        "0xd8e5b",
+        "0xe5bf6",
+        "0xfd4e3",
+        "0x1138f1"
+      ]
+    },
+    "int2e_bytes_cd2e": {
+      "count_entire_file": 115,
+      "count_by_section": {
+        "G8WQkCuI": 115
+      },
+      "first_20_file_offsets": [
+        "0x2c83",
+        "0x49a6",
+        "0x1b304",
+        "0x40f65",
+        "0x4599b",
+        "0xa382e",
+        "0xaa8eb",
+        "0xac131",
+        "0xaeec6",
+        "0xb4a26",
+        "0xba98d",
+        "0xc8b6e",
+        "0xe4b22",
+        "0xe9807",
+        "0xf1b93",
+        "0xf81b0",
+        "0x11ade0",
+        "0x14d389",
+        "0x165ede",
+        "0x179261"
+      ]
+    },
+    "cpuid_bytes_0fa2": {
+      "count_entire_file": 232,
+      "count_by_section": {
+        "G8WQkCuI": 232
+      },
+      "first_20_file_offsets": [
+        "0xd185",
+        "0x14237",
+        "0x2af57",
+        "0x343e4",
+        "0x4ec09",
+        "0x614e6",
+        "0x729da",
+        "0x764bf",
+        "0x76765",
+        "0x7698a",
+        "0x864c9",
+        "0x903a5",
+        "0xa9ea2",
+        "0xae0ea",
+        "0xb04e2",
+        "0xb2663",
+        "0xbbdd2",
+        "0xc8312",
+        "0xe9bb8",
+        "0xf6731"
+      ]
+    },
+    "rdtsc_bytes_0f31": {
+      "count_entire_file": 282,
+      "count_by_section": {
+        "G8WQkCuI": 241,
+        ".rsrc": 41
+      },
+      "first_20_file_offsets": [
+        "0x16da0",
+        "0x2a4d7",
+        "0x34129",
+        "0x3bad2",
+        "0x3badb",
+        "0x4bae2",
+        "0x5853c",
+        "0x599d8",
+        "0x5f8a5",
+        "0x61a62",
+        "0x61a6f",
+        "0x653d9",
+        "0x77bab",
+        "0x84800",
+        "0xa188a",
+        "0xb1db3",
+        "0xc0b05",
+        "0xd3dc6",
+        "0xda3a8",
+        "0xdb64e"
+      ]
+    },
+    "ud2_bytes_0f0b": {
+      "count_entire_file": 177,
+      "count_by_section": {
+        "G8WQkCuI": 126,
+        ".rsrc": 51
+      },
+      "first_20_file_offsets": [
+        "0xa52e",
+        "0x170fa",
+        "0x1decd",
+        "0x28ee0",
+        "0x30339",
+        "0x34ee6",
+        "0x57c31",
+        "0x75700",
+        "0x77717",
+        "0x7d5ea",
+        "0x853d7",
+        "0x870ea",
+        "0x8cc81",
+        "0x931b7",
+        "0x95f6a",
+        "0x9a4a8",
+        "0x9b723",
+        "0xa5eaa",
+        "0xa9df7",
+        "0xaefd7"
+      ]
+    },
+    "int3_byte_cc": {
+      "count_entire_file": 29946,
+      "count_by_section": {
+        "G8WQkCuI": 29837,
+        "7m`f<+$z": 3,
+        ".rsrc": 104
+      },
+      "first_20_file_offsets": [
+        "0x250",
+        "0x1aaa",
+        "0x1b2c",
+        "0x1ba7",
+        "0x1c5d",
+        "0x1cbd",
+        "0x1f0b",
+        "0x1f87",
+        "0x1fff",
+        "0x202e",
+        "0x20c2",
+        "0x2262",
+        "0x2274",
+        "0x22ae",
+        "0x24a8",
+        "0x2523",
+        "0x25ca",
+        "0x25e2",
+        "0x2619",
+        "0x26f1"
+      ]
+    },
+    "hlt_byte_f4": {
+      "count_entire_file": 32014,
+      "count_by_section": {
+        "G8WQkCuI": 31945,
+        "7m`f<+$z": 3,
+        ".rsrc": 66
+      },
+      "first_20_file_offsets": [
+        "0x1b08",
+        "0x1f4a",
+        "0x2044",
+        "0x2260",
+        "0x22df",
+        "0x2320",
+        "0x2716",
+        "0x278a",
+        "0x27c4",
+        "0x27e2",
+        "0x27e8",
+        "0x283d",
+        "0x286a",
+        "0x2c2a",
+        "0x2cb0",
+        "0x2eae",
+        "0x2f00",
+        "0x3067",
+        "0x306d",
+        "0x3073"
+      ]
+    }
+  },
+  "plaintext_string_scan": {
+    "http_urls": {
+      "count": 0,
+      "matches": []
+    },
+    "ipv4_like": {
+      "count": 0,
+      "matches": []
+    },
+    "sys_filenames": {
+      "count": 0,
+      "matches": []
+    },
+    "driver_service_apis": {
+      "count": 0,
+      "matches": []
+    },
+    "process_injection_apis": {
+      "count": 0,
+      "matches": []
+    }
+  },
+  "overlay": {
+    "start_offset": "0x9dfc00",
+    "length": 2856
+  },
+  "main_section_64k_entropy_windows": [
+    {
+      "file_offset": "0x1a00",
+      "size": 65536,
+      "entropy": 7.960912
+    },
+    {
+      "file_offset": "0x11a00",
+      "size": 65536,
+      "entropy": 7.997361
+    },
+    {
+      "file_offset": "0x21a00",
+      "size": 65536,
+      "entropy": 7.997302
+    },
+    {
+      "file_offset": "0x31a00",
+      "size": 65536,
+      "entropy": 7.996666
+    },
+    {
+      "file_offset": "0x41a00",
+      "size": 65536,
+      "entropy": 7.997278
+    },
+    {
+      "file_offset": "0x51a00",
+      "size": 65536,
+      "entropy": 7.997575
+    },
+    {
+      "file_offset": "0x61a00",
+      "size": 65536,
+      "entropy": 7.954855
+    },
+    {
+      "file_offset": "0x71a00",
+      "size": 65536,
+      "entropy": 7.922322
+    },
+    {
+      "file_offset": "0x81a00",
+      "size": 65536,
+      "entropy": 7.967532
+    },
+    {
+      "file_offset": "0x91a00",
+      "size": 65536,
+      "entropy": 7.997458
+    },
+    {
+      "file_offset": "0xa1a00",
+      "size": 65536,
+      "entropy": 7.997321
+    },
+    {
+      "file_offset": "0xb1a00",
+      "size": 65536,
+      "entropy": 7.997303
+    },
+    {
+      "file_offset": "0xc1a00",
+      "size": 65536,
+      "entropy": 7.994943
+    },
+    {
+      "file_offset": "0xd1a00",
+      "size": 65536,
+      "entropy": 7.990561
+    },
+    {
+      "file_offset": "0xe1a00",
+      "size": 65536,
+      "entropy": 7.996963
+    },
+    {
+      "file_offset": "0xf1a00",
+      "size": 65536,
+      "entropy": 7.997199
+    },
+    {
+      "file_offset": "0x101a00",
+      "size": 65536,
+      "entropy": 7.996771
+    },
+    {
+      "file_offset": "0x111a00",
+      "size": 65536,
+      "entropy": 7.99724
+    },
+    {
+      "file_offset": "0x121a00",
+      "size": 65536,
+      "entropy": 7.996535
+    },
+    {
+      "file_offset": "0x131a00",
+      "size": 65536,
+      "entropy": 7.997128
+    },
+    {
+      "file_offset": "0x141a00",
+      "size": 65536,
+      "entropy": 7.997663
+    },
+    {
+      "file_offset": "0x151a00",
+      "size": 65536,
+      "entropy": 7.996861
+    },
+    {
+      "file_offset": "0x161a00",
+      "size": 65536,
+      "entropy": 7.997089
+    },
+    {
+      "file_offset": "0x171a00",
+      "size": 65536,
+      "entropy": 7.997011
+    },
+    {
+      "file_offset": "0x181a00",
+      "size": 65536,
+      "entropy": 7.997281
+    },
+    {
+      "file_offset": "0x191a00",
+      "size": 65536,
+      "entropy": 7.9971
+    },
+    {
+      "file_offset": "0x1a1a00",
+      "size": 65536,
+      "entropy": 7.997657
+    },
+    {
+      "file_offset": "0x1b1a00",
+      "size": 65536,
+      "entropy": 7.997698
+    },
+    {
+      "file_offset": "0x1c1a00",
+      "size": 65536,
+      "entropy": 7.997064
+    },
+    {
+      "file_offset": "0x1d1a00",
+      "size": 65536,
+      "entropy": 7.997218
+    },
+    {
+      "file_offset": "0x1e1a00",
+      "size": 65536,
+      "entropy": 7.997056
+    },
+    {
+      "file_offset": "0x1f1a00",
+      "size": 65536,
+      "entropy": 7.997284
+    },
+    {
+      "file_offset": "0x201a00",
+      "size": 65536,
+      "entropy": 7.996888
+    },
+    {
+      "file_offset": "0x211a00",
+      "size": 65536,
+      "entropy": 7.996648
+    },
+    {
+      "file_offset": "0x221a00",
+      "size": 65536,
+      "entropy": 7.996946
+    },
+    {
+      "file_offset": "0x231a00",
+      "size": 65536,
+      "entropy": 7.997091
+    },
+    {
+      "file_offset": "0x241a00",
+      "size": 65536,
+      "entropy": 7.997145
+    },
+    {
+      "file_offset": "0x251a00",
+      "size": 65536,
+      "entropy": 7.968051
+    },
+    {
+      "file_offset": "0x261a00",
+      "size": 65536,
+      "entropy": 5.904324
+    },
+    {
+      "file_offset": "0x271a00",
+      "size": 65536,
+      "entropy": 5.755604
+    },
+    {
+      "file_offset": "0x281a00",
+      "size": 65536,
+      "entropy": 5.743191
+    },
+    {
+      "file_offset": "0x291a00",
+      "size": 65536,
+      "entropy": 5.777711
+    },
+    {
+      "file_offset": "0x2a1a00",
+      "size": 65536,
+      "entropy": 5.734033
+    },
+    {
+      "file_offset": "0x2b1a00",
+      "size": 65536,
+      "entropy": 5.744895
+    },
+    {
+      "file_offset": "0x2c1a00",
+      "size": 65536,
+      "entropy": 5.742394
+    },
+    {
+      "file_offset": "0x2d1a00",
+      "size": 65536,
+      "entropy": 5.755687
+    },
+    {
+      "file_offset": "0x2e1a00",
+      "size": 65536,
+      "entropy": 5.712729
+    },
+    {
+      "file_offset": "0x2f1a00",
+      "size": 65536,
+      "entropy": 7.498523
+    },
+    {
+      "file_offset": "0x301a00",
+      "size": 65536,
+      "entropy": 7.918939
+    },
+    {
+      "file_offset": "0x311a00",
+      "size": 65536,
+      "entropy": 7.919801
+    },
+    {
+      "file_offset": "0x321a00",
+      "size": 65536,
+      "entropy": 7.988664
+    },
+    {
+      "file_offset": "0x331a00",
+      "size": 65536,
+      "entropy": 7.977695
+    },
+    {
+      "file_offset": "0x341a00",
+      "size": 65536,
+      "entropy": 7.876735
+    },
+    {
+      "file_offset": "0x351a00",
+      "size": 65536,
+      "entropy": 7.912861
+    },
+    {
+      "file_offset": "0x361a00",
+      "size": 65536,
+      "entropy": 7.921523
+    },
+    {
+      "file_offset": "0x371a00",
+      "size": 65536,
+      "entropy": 7.922019
+    },
+    {
+      "file_offset": "0x381a00",
+      "size": 65536,
+      "entropy": 7.914968
+    },
+    {
+      "file_offset": "0x391a00",
+      "size": 65536,
+      "entropy": 7.968557
+    },
+    {
+      "file_offset": "0x3a1a00",
+      "size": 65536,
+      "entropy": 7.997428
+    },
+    {
+      "file_offset": "0x3b1a00",
+      "size": 65536,
+      "entropy": 7.997418
+    },
+    {
+      "file_offset": "0x3c1a00",
+      "size": 65536,
+      "entropy": 7.997442
+    },
+    {
+      "file_offset": "0x3d1a00",
+      "size": 65536,
+      "entropy": 7.997081
+    },
+    {
+      "file_offset": "0x3e1a00",
+      "size": 65536,
+      "entropy": 7.997345
+    },
+    {
+      "file_offset": "0x3f1a00",
+      "size": 65536,
+      "entropy": 7.997163
+    },
+    {
+      "file_offset": "0x401a00",
+      "size": 65536,
+      "entropy": 7.997314
+    },
+    {
+      "file_offset": "0x411a00",
+      "size": 65536,
+      "entropy": 7.997013
+    },
+    {
+      "file_offset": "0x421a00",
+      "size": 65536,
+      "entropy": 7.997301
+    },
+    {
+      "file_offset": "0x431a00",
+      "size": 65536,
+      "entropy": 7.997298
+    },
+    {
+      "file_offset": "0x441a00",
+      "size": 65536,
+      "entropy": 7.997356
+    },
+    {
+      "file_offset": "0x451a00",
+      "size": 65536,
+      "entropy": 7.997251
+    },
+    {
+      "file_offset": "0x461a00",
+      "size": 65536,
+      "entropy": 7.997074
+    },
+    {
+      "file_offset": "0x471a00",
+      "size": 65536,
+      "entropy": 7.997268
+    },
+    {
+      "file_offset": "0x481a00",
+      "size": 65536,
+      "entropy": 7.997378
+    },
+    {
+      "file_offset": "0x491a00",
+      "size": 65536,
+      "entropy": 7.997514
+    },
+    {
+      "file_offset": "0x4a1a00",
+      "size": 65536,
+      "entropy": 7.997139
+    },
+    {
+      "file_offset": "0x4b1a00",
+      "size": 65536,
+      "entropy": 7.997611
+    },
+    {
+      "file_offset": "0x4c1a00",
+      "size": 65536,
+      "entropy": 7.997302
+    },
+    {
+      "file_offset": "0x4d1a00",
+      "size": 65536,
+      "entropy": 7.99707
+    },
+    {
+      "file_offset": "0x4e1a00",
+      "size": 65536,
+      "entropy": 7.996391
+    },
+    {
+      "file_offset": "0x4f1a00",
+      "size": 65536,
+      "entropy": 7.996637
+    },
+    {
+      "file_offset": "0x501a00",
+      "size": 65536,
+      "entropy": 7.997207
+    },
+    {
+      "file_offset": "0x511a00",
+      "size": 65536,
+      "entropy": 7.997105
+    },
+    {
+      "file_offset": "0x521a00",
+      "size": 65536,
+      "entropy": 7.997128
+    },
+    {
+      "file_offset": "0x531a00",
+      "size": 65536,
+      "entropy": 7.996782
+    },
+    {
+      "file_offset": "0x541a00",
+      "size": 65536,
+      "entropy": 7.997456
+    },
+    {
+      "file_offset": "0x551a00",
+      "size": 65536,
+      "entropy": 7.997122
+    },
+    {
+      "file_offset": "0x561a00",
+      "size": 65536,
+      "entropy": 7.997383
+    },
+    {
+      "file_offset": "0x571a00",
+      "size": 65536,
+      "entropy": 7.997647
+    },
+    {
+      "file_offset": "0x581a00",
+      "size": 65536,
+      "entropy": 7.997315
+    },
+    {
+      "file_offset": "0x591a00",
+      "size": 65536,
+      "entropy": 7.997361
+    },
+    {
+      "file_offset": "0x5a1a00",
+      "size": 65536,
+      "entropy": 7.997285
+    },
+    {
+      "file_offset": "0x5b1a00",
+      "size": 65536,
+      "entropy": 7.997188
+    },
+    {
+      "file_offset": "0x5c1a00",
+      "size": 65536,
+      "entropy": 7.997375
+    },
+    {
+      "file_offset": "0x5d1a00",
+      "size": 65536,
+      "entropy": 7.997386
+    },
+    {
+      "file_offset": "0x5e1a00",
+      "size": 65536,
+      "entropy": 7.997837
+    },
+    {
+      "file_offset": "0x5f1a00",
+      "size": 65536,
+      "entropy": 7.99692
+    },
+    {
+      "file_offset": "0x601a00",
+      "size": 65536,
+      "entropy": 7.996915
+    },
+    {
+      "file_offset": "0x611a00",
+      "size": 65536,
+      "entropy": 7.996914
+    },
+    {
+      "file_offset": "0x621a00",
+      "size": 65536,
+      "entropy": 7.997236
+    },
+    {
+      "file_offset": "0x631a00",
+      "size": 65536,
+      "entropy": 7.996853
+    },
+    {
+      "file_offset": "0x641a00",
+      "size": 65536,
+      "entropy": 7.997382
+    },
+    {
+      "file_offset": "0x651a00",
+      "size": 65536,
+      "entropy": 7.997323
+    },
+    {
+      "file_offset": "0x661a00",
+      "size": 65536,
+      "entropy": 7.997433
+    },
+    {
+      "file_offset": "0x671a00",
+      "size": 65536,
+      "entropy": 7.997323
+    },
+    {
+      "file_offset": "0x681a00",
+      "size": 65536,
+      "entropy": 7.971329
+    },
+    {
+      "file_offset": "0x691a00",
+      "size": 65536,
+      "entropy": 7.912643
+    },
+    {
+      "file_offset": "0x6a1a00",
+      "size": 65536,
+      "entropy": 7.311708
+    },
+    {
+      "file_offset": "0x6b1a00",
+      "size": 65536,
+      "entropy": 7.253183
+    },
+    {
+      "file_offset": "0x6c1a00",
+      "size": 65536,
+      "entropy": 7.279677
+    },
+    {
+      "file_offset": "0x6d1a00",
+      "size": 65536,
+      "entropy": 7.292897
+    },
+    {
+      "file_offset": "0x6e1a00",
+      "size": 65536,
+      "entropy": 7.225455
+    },
+    {
+      "file_offset": "0x6f1a00",
+      "size": 65536,
+      "entropy": 7.263489
+    },
+    {
+      "file_offset": "0x701a00",
+      "size": 65536,
+      "entropy": 7.302576
+    },
+    {
+      "file_offset": "0x711a00",
+      "size": 65536,
+      "entropy": 7.317534
+    },
+    {
+      "file_offset": "0x721a00",
+      "size": 65536,
+      "entropy": 7.303635
+    },
+    {
+      "file_offset": "0x731a00",
+      "size": 65536,
+      "entropy": 7.224701
+    },
+    {
+      "file_offset": "0x741a00",
+      "size": 65536,
+      "entropy": 7.304142
+    },
+    {
+      "file_offset": "0x751a00",
+      "size": 65536,
+      "entropy": 7.245127
+    },
+    {
+      "file_offset": "0x761a00",
+      "size": 65536,
+      "entropy": 7.23911
+    },
+    {
+      "file_offset": "0x771a00",
+      "size": 65536,
+      "entropy": 7.246828
+    },
+    {
+      "file_offset": "0x781a00",
+      "size": 65536,
+      "entropy": 7.31175
+    },
+    {
+      "file_offset": "0x791a00",
+      "size": 65536,
+      "entropy": 7.315529
+    },
+    {
+      "file_offset": "0x7a1a00",
+      "size": 65536,
+      "entropy": 7.248239
+    },
+    {
+      "file_offset": "0x7b1a00",
+      "size": 65536,
+      "entropy": 7.247895
+    },
+    {
+      "file_offset": "0x7c1a00",
+      "size": 65536,
+      "entropy": 7.249262
+    },
+    {
+      "file_offset": "0x7d1a00",
+      "size": 65536,
+      "entropy": 7.31884
+    },
+    {
+      "file_offset": "0x7e1a00",
+      "size": 65536,
+      "entropy": 7.289086
+    },
+    {
+      "file_offset": "0x7f1a00",
+      "size": 65536,
+      "entropy": 7.268934
+    },
+    {
+      "file_offset": "0x801a00",
+      "size": 65536,
+      "entropy": 7.253818
+    },
+    {
+      "file_offset": "0x811a00",
+      "size": 65536,
+      "entropy": 7.213728
+    },
+    {
+      "file_offset": "0x821a00",
+      "size": 65536,
+      "entropy": 7.25572
+    },
+    {
+      "file_offset": "0x831a00",
+      "size": 65536,
+      "entropy": 7.231984
+    },
+    {
+      "file_offset": "0x841a00",
+      "size": 65536,
+      "entropy": 7.287401
+    },
+    {
+      "file_offset": "0x851a00",
+      "size": 65536,
+      "entropy": 7.325801
+    },
+    {
+      "file_offset": "0x861a00",
+      "size": 65536,
+      "entropy": 7.312036
+    },
+    {
+      "file_offset": "0x871a00",
+      "size": 65536,
+      "entropy": 7.315539
+    },
+    {
+      "file_offset": "0x881a00",
+      "size": 65536,
+      "entropy": 7.232384
+    },
+    {
+      "file_offset": "0x891a00",
+      "size": 65536,
+      "entropy": 7.272053
+    },
+    {
+      "file_offset": "0x8a1a00",
+      "size": 65536,
+      "entropy": 7.215044
+    },
+    {
+      "file_offset": "0x8b1a00",
+      "size": 65536,
+      "entropy": 7.28956
+    },
+    {
+      "file_offset": "0x8c1a00",
+      "size": 65536,
+      "entropy": 7.257674
+    },
+    {
+      "file_offset": "0x8d1a00",
+      "size": 65536,
+      "entropy": 7.23846
+    },
+    {
+      "file_offset": "0x8e1a00",
+      "size": 65536,
+      "entropy": 7.317392
+    },
+    {
+      "file_offset": "0x8f1a00",
+      "size": 65536,
+      "entropy": 7.235555
+    },
+    {
+      "file_offset": "0x901a00",
+      "size": 65536,
+      "entropy": 7.342656
+    },
+    {
+      "file_offset": "0x911a00",
+      "size": 65536,
+      "entropy": 7.249444
+    },
+    {
+      "file_offset": "0x921a00",
+      "size": 65536,
+      "entropy": 7.298812
+    },
+    {
+      "file_offset": "0x931a00",
+      "size": 65536,
+      "entropy": 7.254507
+    },
+    {
+      "file_offset": "0x941a00",
+      "size": 65536,
+      "entropy": 7.203718
+    },
+    {
+      "file_offset": "0x951a00",
+      "size": 65536,
+      "entropy": 7.193891
+    },
+    {
+      "file_offset": "0x961a00",
+      "size": 65536,
+      "entropy": 6.245903
+    },
+    {
+      "file_offset": "0x971a00",
+      "size": 12800,
+      "entropy": 5.790963
+    }
+  ],
+  "interpretation_limitations": [
+    "Byte-pattern matches are not proof of executed instructions.",
+    "High-entropy bytes can generate incidental opcode sequences.",
+    "No dynamic execution or runtime memory capture was performed.",
+    "String/API-name absence does not prove behavior is absent; protected or dynamically generated code may hide it."
+  ]
+}
